@@ -1,0 +1,61 @@
+### C# ###
+## Ignore build & runtime files ##
+bin/
+obj/
+*.user
+*.suo
+*.cache
+*.nupkg
+*.swp
+*.pidb
+*.pdb
+*.ilk
+*.msi
+*.ncb
+*.log
+*.vs/
+.vs/
+TestResults/
+artifacts/
+/packages/
+/.localhistory/
+
+## Ignore local settings ##
+appsettings.Development.json
+appsettings.Local.json
+secrets.json
+*.secrets.json
+.env
+.env.local
+
+### Docker ###
+## Ignore Docker-related files (except Dockerfile & compose) ##
+docker-compose.*.yml  # (except main compose file)
+docker-compose.override.yml
+.dockerignore
+*.dockerfile
+*.tar.gz
+*.env  # (Docker env files, if not needed in repo)
+
+### Databases ###
+*.mdf
+*.ldf
+*.sdf
+
+### IDE ###
+## Rider/VS Code ##
+.idea/
+.vscode/
+*.sw*
+
+### NuGet ###
+## Ignore NuGet packages & restore ##
+.nuget/
+NuGet.exe
+NuGet.Config
+project.lock.json
+
+### Tests ###
+*.Test/TestResults/
+*.testresult
+*.coverage
