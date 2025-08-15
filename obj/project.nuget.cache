@@ -1,11 +1,16 @@
 {
   "version": 2,
-  "dgSpecHash": "dZwjJv+/HLI=",
+  "dgSpecHash": "AftWXxr0QKZRNryb36Poi5CTxlXp8uRfcttQkB47VKd4NEKXxjmG+G6Vm6EsF00uSF8FuoppZ1n2j4+s8mClvw==",
   "success": true,
-  "projectFilePath": "/home/alisson/WebApiProject/WebApiProject.csproj",
+  "projectFilePath": "/home/alisson/WebApiWithDocker/WebApiProject.csproj",
   "expectedPackageFiles": [
-    "/home/alisson/.nuget/packages/microsoft.aspnetcore.openapi/9.0.7/microsoft.aspnetcore.openapi.9.0.7.nupkg.sha512",
-    "/home/alisson/.nuget/packages/microsoft.openapi/1.6.17/microsoft.openapi.1.6.17.nupkg.sha512"
+    "/home/alisson/.nuget/packages/microsoft.aspnetcore.openapi/8.0.5/microsoft.aspnetcore.openapi.8.0.5.nupkg.sha512",
+    "/home/alisson/.nuget/packages/microsoft.extensions.apidescription.server/6.0.5/microsoft.extensions.apidescription.server.6.0.5.nupkg.sha512",
+    "/home/alisson/.nuget/packages/microsoft.openapi/1.4.3/microsoft.openapi.1.4.3.nupkg.sha512",
+    "/home/alisson/.nuget/packages/swashbuckle.aspnetcore/6.5.0/swashbuckle.aspnetcore.6.5.0.nupkg.sha512",
+    "/home/alisson/.nuget/packages/swashbuckle.aspnetcore.swagger/6.5.0/swashbuckle.aspnetcore.swagger.6.5.0.nupkg.sha512",
+    "/home/alisson/.nuget/packages/swashbuckle.aspnetcore.swaggergen/6.5.0/swashbuckle.aspnetcore.swaggergen.6.5.0.nupkg.sha512",
+    "/home/alisson/.nuget/packages/swashbuckle.aspnetcore.swaggerui/6.5.0/swashbuckle.aspnetcore.swaggerui.6.5.0.nupkg.sha512"
   ],
   "logs": []
 }

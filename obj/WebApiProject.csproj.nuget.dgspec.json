@@ -1,31 +1,30 @@
 {
   "format": 1,
   "restore": {
-    "/home/alisson/WebApiProject/WebApiProject.csproj": {}
+    "/home/alisson/WebApiWithDocker/WebApiProject.csproj": {}
   },
   "projects": {
-    "/home/alisson/WebApiProject/WebApiProject.csproj": {
+    "/home/alisson/WebApiWithDocker/WebApiProject.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/alisson/WebApiProject/WebApiProject.csproj",
+        "projectUniqueName": "/home/alisson/WebApiWithDocker/WebApiProject.csproj",
         "projectName": "WebApiProject",
-        "projectPath": "/home/alisson/WebApiProject/WebApiProject.csproj",
+        "projectPath": "/home/alisson/WebApiWithDocker/WebApiProject.csproj",
         "packagesPath": "/home/alisson/.nuget/packages/",
-        "outputPath": "/home/alisson/WebApiProject/obj/",
+        "outputPath": "/home/alisson/WebApiWithDocker/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/home/alisson/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
-          "net9.0"
+          "net8.0"
         ],
         "sources": {
-          "/usr/lib64/dotnet/library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "net9.0": {
-            "targetAlias": "net9.0",
+          "net8.0": {
+            "targetAlias": "net8.0",
             "projectReferences": {}
           }
         },
@@ -33,21 +32,19 @@
           "warnAsError": [
             "NU1605"
           ]
-        },
-        "restoreAuditProperties": {
-          "enableAudit": "true",
-          "auditLevel": "low",
-          "auditMode": "direct"
-        },
-        "SdkAnalysisLevel": "9.0.100"
+        }
       },
       "frameworks": {
-        "net9.0": {
-          "targetAlias": "net9.0",
+        "net8.0": {
+          "targetAlias": "net8.0",
           "dependencies": {
             "Microsoft.AspNetCore.OpenApi": {
               "target": "Package",
-              "version": "[9.0.7, )"
+              "version": "[8.0.5, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.5.0, )"
             }
           },
           "imports": [
@@ -69,7 +66,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/lib64/dotnet/sdk/9.0.108/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/lib64/dotnet/sdk/8.0.118/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
