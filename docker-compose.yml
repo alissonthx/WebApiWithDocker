@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  webapi:
+    image: alissonmmiquelace/webapi  # Docker Hub repo
+    build: .
+    ports:
+      - "8081:80"  # Maps host 8081 to container 80
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Development
+      - ASPNETCORE_URLS=http://+:80
+    restart: unless-stopped    
