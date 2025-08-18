@@ -1,4 +1,4 @@
-# Docker API Case Study
+# 🐳 Docker API Case Study
 
 A containerized API service with database integration for development and study purposes.
 
@@ -9,4 +9,4 @@ A containerized API service with database integration for development and study 
 
 ## Getting Started
 
-# In development
+## 🚧 In development 🚧
