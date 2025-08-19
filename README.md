@@ -9,4 +9,9 @@ A containerized API service with database integration for development and study 
 
 ## Getting Started
 
+1. Ensure Docker is installed
+2. Run:
+   ```bash
+   docker compose up
+
 ## 🚧 In development 🚧
