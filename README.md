@@ -13,5 +13,3 @@ A containerized API service with database integration for development and study 
 2. Run:
    ```bash
    docker compose up
-
-## 🚧 In development 🚧
